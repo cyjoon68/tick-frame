@@ -1,0 +1,26 @@
+{
+  "items": [
+    { "code": "005930", "name": "삼성전자", "tickSize": 100 },
+    { "code": "005935", "name": "삼성전자우", "tickSize": 100 },
+    { "code": "035720", "name": "카카오", "tickSize": 50 },
+    { "code": "035420", "name": "NAVER", "tickSize": 10 },
+    { "code": "005380", "name": "현대차", "tickSize": 100 },
+    { "code": "000660", "name": "SK하이닉스", "tickSize": 1000 },
+    { "code": "055550", "name": "신한지주", "tickSize": 50 },
+    {
+      "code": "252670",
+      "name": "KODEX 200선물인버스2X 레버리지 혼합상장지수펀드 혼합형상품AETF",
+      "tickSize": 5
+    },
+    {
+      "code": "122630",
+      "name": "TIGER 미국나스닥100 레버리지 상장지수증권ETF 혼합형상품ETF형A",
+      "tickSize": 1
+    },
+    {
+      "code": "069500",
+      "name": "삼성전자우 KODEX 인버스2X 혼합형 레버리지 상품 상장지수펀드 ETF",
+      "tickSize": 500
+    }
+  ]
+}

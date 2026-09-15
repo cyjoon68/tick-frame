@@ -1,0 +1,151 @@
+:root {
+  --bg: #eef0f3;
+  --surface: #ffffff;
+  --ink: #1a1d21;
+  --muted: #6a717b;
+  --line: #dfe3e8;
+  --header: #f6f7f9;
+  --up: #d91f2a;
+  --down: #0b62d6;
+  --even: #5c636c;
+  --btn-line: #cfd4db;
+  --btn-disabled: #9aa1ab;
+  --shadow: 0 1px 2px rgba(26, 29, 33, 0.06);
+  --sans: "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+}
+
+.watchlist-screen {
+  width: 520px;
+  margin: 28px auto 36px;
+  padding: 0 16px;
+}
+
+.refresh-bar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.refresh-bar h1 {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+.refresh-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.refresh-actions button {
+  height: 32px;
+  padding: 0 12px;
+  border: 1px solid var(--btn-line);
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.refresh-actions button:disabled {
+  color: var(--btn-disabled);
+  background: var(--header);
+}
+
+.watchlist-board {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.watchlist-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 484px;
+  font-size: 13px;
+}
+
+.watchlist-table thead th {
+  background: var(--header);
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid var(--line);
+  padding: 0 10px;
+  height: 36px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.watchlist-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 0 10px;
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.watchlist-table tr:last-child td {
+  border-bottom: none;
+}
+
+.col-code {
+  width: 92px;
+  color: var(--muted);
+  text-align: left;
+}
+
+.col-name {
+  width: 176px;
+  text-align: left;
+  font-weight: 500;
+  text-overflow: ellipsis;
+}
+
+.col-price,
+.col-change {
+  text-align: right;
+}
+
+.col-price {
+  width: 120px;
+}
+
+.col-change {
+  width: 96px;
+}
+
+.is-up {
+  color: var(--up);
+  font-weight: 600;
+}
+
+.is-down {
+  color: var(--down);
+  font-weight: 600;
+}
+
+.is-even {
+  color: var(--even);
+}
