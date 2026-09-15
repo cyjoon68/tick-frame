@@ -1,0 +1,9 @@
+{
+  "rowHeightPx": 36,
+  "columns": [
+    { "id": "code", "widthPx": 92, "align": "left", "overflow": "clip" },
+    { "id": "name", "widthPx": 176, "align": "left", "overflow": "ellipsis" },
+    { "id": "price", "widthPx": 120, "align": "right", "overflow": "clip" },
+    { "id": "changePct", "widthPx": 96, "align": "right", "overflow": "clip" }
+  ]
+}
